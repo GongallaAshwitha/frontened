@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(135deg, #faf3dd, #fdebd3, #fad4c0);
+  background: linear-gradient(135deg, #e3fdfd, #cbf1f5, #a6e3e9);
   overflow-x: hidden;
 }
 
@@ -39,8 +39,8 @@ input {
 }
 
 input:focus {
-  border: 2px solid #ff7eb3;
-  box-shadow: 0 0 12px rgba(255, 126, 179, 0.4);
+  border: 2px solid #0099cc;
+  box-shadow: 0 0 12px rgba(0, 153, 204, 0.4);
   outline: none;
 }
 
@@ -53,18 +53,18 @@ button {
   border-radius: 10px;
   font-size: 18px;
   font-weight: bold;
-  background: linear-gradient(135deg, #ff7eb3, #ff9a8b);
+  background: linear-gradient(135deg, #0099cc, #0077b6);
   color: white;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-  box-shadow: 0 6px 15px rgba(255, 126, 179, 0.3);
+  box-shadow: 0 6px 15px rgba(0, 153, 204, 0.3);
   letter-spacing: 1px;
 }
 
 button:hover {
-  background: linear-gradient(135deg, #ff5e9b, #ff8570);
+  background: linear-gradient(135deg, #0077b6, #005f99);
   transform: scale(1.06);
-  box-shadow: 0 8px 20px rgba(255, 126, 179, 0.4);
+  box-shadow: 0 8px 20px rgba(0, 153, 204, 0.4);
 }
 
 /* Card Image Styles */
@@ -80,7 +80,7 @@ button:hover {
 .card-img-top:hover {
   transform: scale(1.05);
   filter: brightness(1.1);
-  box-shadow: 0 10px 25px rgba(255, 126, 179, 0.5);
+  box-shadow: 0 10px 25px rgba(0, 153, 204, 0.5);
 }
 
 /* Responsive adjustments */
@@ -100,7 +100,7 @@ button:hover {
 
 /* Navbar Styling */
 .navbar {
-  background: linear-gradient(90deg, #ff7eb3, #ff9a8b) !important;
+  background: linear-gradient(90deg, #0099cc, #0077b6) !important;
   padding: 15px 20px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
   border-bottom-left-radius: 25px;
@@ -128,7 +128,7 @@ button:hover {
 
 .navbar-nav .nav-link:hover {
   color: #222222 !important;
-  background: rgba(255, 204, 0, 0.8);
+  background: rgba(0, 191, 165, 0.8);
   border-radius: 12px;
   transform: scale(1.08);
 }
@@ -154,13 +154,13 @@ button:hover {
 /* Soft Glow Animation */
 @keyframes softGlow {
   0% {
-    box-shadow: 0 0 5px rgba(255, 126, 179, 0.3);
+    box-shadow: 0 0 5px rgba(0, 153, 204, 0.3);
   }
   50% {
-    box-shadow: 0 0 15px rgba(255, 126, 179, 0.6);
+    box-shadow: 0 0 15px rgba(0, 153, 204, 0.6);
   }
   100% {
-    box-shadow: 0 0 5px rgba(255, 126, 179, 0.3);
+    box-shadow: 0 0 5px rgba(0, 153, 204, 0.3);
   }
 }
 
